@@ -6,8 +6,8 @@
 package mx.itson.wabuuwebi.exception;
 
 /**
- *
- * @author Jesus Quintero
+ * Clase para la creacion de excepciones
+ * @author Jesus Quintero, Carlos Rebollo, Arian Gastelum
  */
 public class DigitosException extends Exception{
     public DigitosException(String errorMessage){

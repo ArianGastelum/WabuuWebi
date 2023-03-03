@@ -8,8 +8,8 @@ package mx.itson.wabuuwebi.operacion;
 import mx.itson.wabuuwebi.exception.DigitosException;
 
 /**
- *
- * @author Jesus Quintero
+ * Clase para la creacion de metodos de operacion
+ * @author Jesus Quintero, Carlos Rebollo, Arian Gastelum
  */
 public class Operacion {
    public double ConvertirCentigradosFahrenheit(double fahrenheit)throws DigitosException{
