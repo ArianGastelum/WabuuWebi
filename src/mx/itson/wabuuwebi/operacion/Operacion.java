@@ -18,4 +18,10 @@ public class Operacion {
        }
    return((fahrenheit/1.8)+32);
    }
+   public double ConvertirFahrenheitCentigrados(double fahrenheit)throws DigitosException{
+   if(fahrenheit>=9999){
+   throw new DigitosException("No puedes tener mas de 9999 grados Fahrenheit");
+       }
+   return((fahrenheit*1.8)+32);
+   }
 }
